@@ -20,5 +20,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I'm currently a mathematics master's student at the [Free University of Berlin](https://www.mi.fu-berlin.de/math/index.html).
+
 I also work as a student help at the [IOL lab at ZIB](https://iol.zib.de/) under [Christoph Spiegel](https://christophspiegel.berlin/).
 
