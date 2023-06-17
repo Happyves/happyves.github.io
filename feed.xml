@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://happyves.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://happyves.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-17T19:03:17+00:00</updated><id>https://happyves.github.io/feed.xml</id><title type="html">blank</title><subtitle>Academic website of Yves Jäckle.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://happyves.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://happyves.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-17T19:15:31+00:00</updated><id>https://happyves.github.io/feed.xml</id><title type="html">blank</title><subtitle>Academic website of Yves Jäckle.
 </subtitle><entry><title type="html">The Combinatorial Nulstellensatz, a note on the final argument.</title><link href="https://happyves.github.io/blog/2023/CombinatorialNullstellensatz/" rel="alternate" type="text/html" title="The Combinatorial Nulstellensatz, a note on the final argument." /><published>2023-06-17T00:00:00+00:00</published><updated>2023-06-17T00:00:00+00:00</updated><id>https://happyves.github.io/blog/2023/CombinatorialNullstellensatz</id><content type="html" xml:base="https://happyves.github.io/blog/2023/CombinatorialNullstellensatz/"><![CDATA[<p>This is a note on the proof of the combinatorial Nullstellensatz as it’s written in the proof of Theorem 16.8 of the second editin of S. Jukna’s “Extremal Combinatorics”.</p>
 
 <p>It’s also my first blog-post using MathJax.</p>
@@ -8,9 +8,7 @@
 <table>
   <tbody>
     <tr>
-      <td>The monomials on the left-side of the equation have form \((a_1 ,..., a_i +j,..., a_n )\), where \((a_1 ,..., a_n )\) is a monomial of \(h_i\) and $$ j \leq \left</td>
-      <td>S_i \right</td>
-      <td>\(, corresponding to the monomials of\) g_i \(. Now, if one of them was\) (a_1 ,…, a_i +j,…, a_n ) = (t_1 ,…, t_n ) \(, then since\) a_i \geq 0 \(and\) t_i &lt;</td>
+      <td>The monomials on the left-side of the equation have form \((a_1 ,..., a_i +j,..., a_n )\), where \((a_1 ,..., a_n )\) is a monomial of \(h_i\) and \(j \leq | S_i |\), corresponding to the monomials of \(g_i\). Now, if one of them was \((a_1 ,..., a_i +j,..., a_n ) = (t_1 ,..., t_n )\), then since \(a_i \geq 0\) and $$ t_i &lt;</td>
       <td>S_i</td>
       <td>\(, we must have\) j &lt;</td>
       <td>S_i</td>
