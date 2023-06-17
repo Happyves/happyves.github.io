@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>2023 | Yves  Jäckle</title>
+    <title>The Combinatorial Nulstellensatz, a note on the final argument. | Yves  Jäckle</title>
     <meta name="author" content="Yves  Jäckle">
     <meta name="description" content="Academic website of Yves Jäckle.
 ">
@@ -39,7 +39,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://happyves.github.io/blog/2023/">
+    <link rel="canonical" href="https://happyves.github.io/blog/2023/CombinatorialNullstellensatz/">
 
     <!-- Dark Mode -->
     
@@ -131,70 +131,44 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <div class="post">
+        <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-calendar fa-sm"></i> 2023 </h1>
-    <p class="post-description"> an archive of posts from this year </p>
+    <h1 class="post-title">The Combinatorial Nulstellensatz, a note on the final argument.</h1>
+    <p class="post-meta">June 17, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/tag/math">
+          <i class="fas fa-hashtag fa-sm"></i> math</a>  
+          
+        ·  
+        <a href="/blog/category/sample-posts">
+          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Jun 17, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/CombinatorialNullstellensatz/">The Combinatorial Nulstellensatz, a note on the final argument.</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">May 12, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/custom-blockquotes/">a post with custom blockquotes</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 25, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/sidebar-table-of-contents/">a post with table of contents on a sidebar</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 25, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/audios/">a post with audios</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 24, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/videos/">a post with videos</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Mar 20, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/tables/">displaying beautiful tables with Bootstrap Tables</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Mar 20, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/table-of-contents/">a post with table of contents</a>
-          </td>
-        </tr>
-      
-      </table>
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <p>This is a note on the proof of the combinatorial Nullstellensatz as it’s written in the proof of Theorem 16.8 of the second editin of S. Jukna’s “Extremal Combinatorics”.</p>
+
+<p>It’s also my first blog-post using MathJax.</p>
+
+<p>Here’s why “it is impossible to have such a monomial on the right-hand side”.</p>
+
+<p>The monomials on the left-side of the equation have form $(a_1 ,…, a_i +j,…, a_n )$, where $(a_1 ,…, a_n )$ is a monomial of $h_i$ and $j \leq |S_i |$, 
+corresponding to the monomials of $g_i$. Now, if one of them was $(a_1 ,…, a_i +j,…, a_n ) = (t_1 ,…, t_n )$, then since $a_i \geq 0\(and\)t_i &lt; |S_i |$, we must have
+$j &lt; |S_i |$. However, the product of monomial $(a_1 ,…, a_n )$ of $h_i$ and the leading monomial of $g_i$ will produce monomial $(a_1 ,…, a_i +|S_i | ,…, a_n )$,
+which must be in $f$. This is a contradiction on the degree of $f$, since $deg(f) = t_1 +…+ t_n = a_1 +…+ a_i +j+…+ a_n \leq a_1 +…+ a_i +|S_i | +…+ a_n $.</p>
+
+
     </div>
   </article>
-
 </div>
 
       
