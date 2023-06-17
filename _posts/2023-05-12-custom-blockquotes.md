@@ -2,6 +2,7 @@
 layout: post
 title: a post with custom blockquotes
 date: 2023-05-12 15:53:00-0400
+tags: al-folio-template
 description: an example of a blog post with custom blockquotes
 categories: sample-posts blockquotes
 giscus_comments: true
