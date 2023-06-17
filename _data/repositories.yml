@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - FordUniver
+  - YaelDillies
 
 github_repos:
+  - leanprover-community/mathlib
+  - leanprover-community/mathlib4
+  - FordUniver/leanbook
+  - Happyves/Discrete_Math_in_Lean_3
   - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
