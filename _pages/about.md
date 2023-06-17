@@ -1,6 +1,6 @@
 ---
-layout: About me
-title: About me
+layout: about
+title: about
 permalink: /
 subtitle: Freie Universität Berlin
 
