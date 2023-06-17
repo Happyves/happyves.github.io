@@ -2,6 +2,7 @@
 layout: post
 title: a post with table of contents
 date: 2023-03-20 11:59:00-0400
+tags: al-folio-template
 description: an example of a blog post with table of contents
 categories: sample-posts toc
 giscus_comments: true
