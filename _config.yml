@@ -268,8 +268,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags wil
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Jäckle]
+  first_name: [Yves]
 
   style: apa
   locale: en
