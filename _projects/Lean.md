@@ -8,7 +8,7 @@ category: Current
 
 When writing a proof, applying lemmata or theorems may feel like applying a function. The assumptions would be the inputs of that function, and its output would be the conclusion of the lemma/theorem.
 
-In the field of formal proof verification, this idea is implemented a programming language. One such language is [Lean](https://leanprover-community.github.io/). To get a picture of what Lean looks like, a good way is to play Kevin Buzzards [natural numbers game](https://leanprover-community.github.io/).
+In the field of formal proof verification, this idea is implemented a programming language. One such language is [Lean](https://leanprover-community.github.io/). To get a picture of what Lean looks like, a good way is to play Kevin Buzzards [natural numbers game](https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/).
 
 Here's what Lean looks like in practice. The code is to the left, and to the right, the VS code extention for Lean allows us to get messages from the compiler.
 
