@@ -39,6 +39,13 @@
       description:
         - Description 1.
         - Description 2.
+    - title: Tutor 
+      institution: University of Bonn
+      year: 2022
+      description:
+        - Tutor for the class Mathematik für Physiker/innen 2 at Bonn
+        - My tasks where to grade exercise sheets and moderate the exercise sessions
+        - The content of the class was basic Calculus and some Fourier analysis
         
 
 - title: Open Source Projects
