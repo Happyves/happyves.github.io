@@ -2,9 +2,8 @@
 layout: post
 title: Matching
 date: 2023-06-20
-description: an example of a blog post with some math
+description: The math of match-making
 tags: math
-categories: sample-posts
 related_posts: false
 ---
 In [this exposition](https://happyves.github.io/assets/pdf/blog_matching.pdf), we discuss maximum matching, Hall's theorem and the Gale-Shapeley algorithm.
