@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Knot's at SoME 1
-
+img : asstes/img/projects_some1_logo.png
 importance: 1
 category: Completed
 ---
