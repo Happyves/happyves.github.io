@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Automated Theorem Proving with Lean
-
+img: assets/img/projects_lean_logo.png
 importance: 1
 category: Current
 ---
