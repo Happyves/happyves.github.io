@@ -43,8 +43,8 @@ Now, all fractions can be represented by a coprime nuberator and the denominator
 
 This proof still contained some computational elements, such as the parity of squares.
 You will encounter proofs that contain no claculations at all, such as that of the Bolzano-Weierstrass theorem.
-This theorem says that a seuqence $$(u_n )$$ of real numbers with values in some bounded interval $$\[ a,b\]$$ will always contain a convergent subsequence.
-The idea is that either $$\[ a,\frac _{a+b}{2}\]$$ or $$\[\frac _{a+b}{2} , b\]$$ contains infinitely many terms of the series.
+This theorem says that a seuqence $$(u_n )$$ of real numbers with values in some bounded interval $$[ a,b]$$ will always contain a convergent subsequence.
+The idea is that either $$[ a,(a+b)/(2)]$$ or $$[(a+b)/(2) , b]$$ contains infinitely many terms of the series.
 If we choose $$v_1$$ to be a $$u_m$$ in the interval among the two that contains infinitely many terms, we can apply that argument again on the subsequence $$u$$ starting at $$m+1$$ that takes values in that interval.
 We will contruct a subsequence of $$u$$ that will be in smaller and smaller intervals, and will therefore converge.
 My exposition involved quite some handwaving (= mathematicall slang for leaving thing unexplained), and you will find a better exposition in analysis textbooks.
@@ -96,11 +96,13 @@ In fact, if you check my projects on this website, you can find the Lean project
 To illustrate this, we'll take the example of the fact that there are $$n\times (n-1) \times ...\times 1$$ ways to order $$n$$ different objects.
 A proof of this you may have gotten in highschool may have been based on a diagram such as the following one.
 
+<p align="center">
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Blog_HighschoolUni.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</p>
 
 It represents the possible orderings as paths determined by successive choices of what object to place on spot $$k$$ in the ordering, starting from spot $$1$$ where we have $$n$$ choices, to spot $$2$$ where we have $$n-1$$ choices for the second object (all but the first object are candidates), and so on.
 
