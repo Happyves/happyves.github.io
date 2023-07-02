@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 nav: true
 nav_order: 3
-display_categories: [Current, Completed, al-folio-template]
+display_categories: [Current, Completed, Blog and notes, al-folio-template]
 horizontal: false
 ---
 
