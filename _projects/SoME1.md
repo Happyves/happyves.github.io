@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Knot's at SoME 1
+description : How to construct a surface who's boundary is a given knot ?
 img : assets/img/projects_some1_logo.png
 importance: 1
 category: Completed
