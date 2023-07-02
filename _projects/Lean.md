@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Automated Theorem Proving with Lean
+description: Formally verifying proofs with the lean programming language, with a glimpse of how this may be automated.
 img: assets/img/projects_lean_logo.png
 importance: 1
 category: Current
