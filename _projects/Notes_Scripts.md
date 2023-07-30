@@ -2,7 +2,7 @@
 layout: page
 title: Notes
 description: A collection of notes on various topics at a under-/graduate level
-img: assets/img/Bolg_scripts.png
+img: assets/img/Blog_scripts.png
 importance: 1
 category: Notes
 ---
