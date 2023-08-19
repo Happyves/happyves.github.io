@@ -26,3 +26,35 @@ category: Blog
 <div class="center-container">
     <img src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/img/meme_1.png" alt="Your Image Description" class="centered-image">
 </div>
+
+<div class="center-container">
+    <img src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/img/meme_2.jpg" alt="Your Image Description" class="centered-image">
+</div>
+
+<div class="center-container">
+    <img src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/img/meme_3.jpg" alt="Your Image Description" class="centered-image">
+</div>
+
+<div class="center-container">
+    <img src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/img/meme_4.jpg" alt="Your Image Description" class="centered-image">
+</div>
+
+<div class="center-container">
+    <img src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/img/meme_5.png" alt="Your Image Description" class="centered-image">
+</div>
+
+<div class="center-container">
+    <img src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/img/meme_6.png" alt="Your Image Description" class="centered-image">
+</div>
+
+<div class="center-container">
+    <img src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/img/meme_7.jpg" alt="Your Image Description" class="centered-image">
+</div>
+
+<div class="center-container">
+    <img src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/img/meme_8.png" alt="Your Image Description" class="centered-image">
+</div>
+
+<div class="center-container">
+    <img src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/img/meme_9.jpg" alt="Your Image Description" class="centered-image">
+</div>
