@@ -62,3 +62,5 @@ category: Blog
 <div class="center-container">
     <img src="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/img/meme_10.jpg" alt="Your Image Description" class="centered-image">
 </div>
+
+
