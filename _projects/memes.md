@@ -13,7 +13,7 @@ category: Blog
     display: flex;
     justify-content: center;  /* Horizontally center */
     align-items: center;      /* Vertically center */
-    height: 100vh;            /* Use 100% of the viewport height */
+    height: 750vh;            /* Use 100% of the viewport height */
 }
 
 .centered-image {
