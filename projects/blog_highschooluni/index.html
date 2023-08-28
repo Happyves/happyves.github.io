@@ -135,23 +135,37 @@
           </header>
 
           <article>
-            <p>This post is dedicated to highschool students that want to study maths at university. At the end of this post, you’ll find a list of book recommendations that may be useful to anyone.</p>
+            
+   <style>
+       .center-container {
+    display: flex;
+    justify-content: center;  /* Horizontally center */
+    align-items: center;      /* Vertically center */
+    height: 750vh;            /* Use 100% of the viewport height */
+}
+
+.centered-image {
+    max-width: 100%;          /* Ensure the image doesn't exceed its container */
+}
+   </style>
+
+
+<p>This post is dedicated to highschool students that want to study maths at university. At the end of this post, you’ll find a list of book recommendations that may be useful to anyone.</p>
 
 <h2 id="why-this-post--why-read-it-">Why this post ? Why read it ?</h2>
 
 <p>I was in this situiation a while ago. I thought that the description given by teachers and older siblings of freinds of mine were enough information to judge the situation. In retrospect, I would have prefered to know what I’ll tell you in this blogpost, which I wasn’t told or failed to understand.
-If you’re a highschool student reading this, you’ve already done something right that I hadn’t: you’ve seeked proper information. Highschool is an environement that often provides you the information you need, but at university or in your professional life, you’ll see that you’ll often have to find that information yourself, as no one will lay it out for you.</p>
+If you’re a highschool student reading this, you’ve already done something right that I hadn’t: you’ve seeked proper information.</p>
 
 <h2 id="learning-by-doing">Learning by doing</h2>
 
-<p>In that philosophy, a good advice on how to find out what university math is like, is to show up a university for a day, and/or to read university level textbooks. Many universities hold sepcial events that allow future students to join university level classes for a day or two. In them, you won’t really get a feel for what university level math is like, as either the topic is too advanced for you, or it’s tailored for highschool students and doesn’t reflect the actual contents of the classes. However, you get a good feeling for what lectures (content sessions) and tutorials (exercise sessions) are like. If the lecturer and the tutor where helpful, then you were lucky. Usually, both are a lot bussier then your highschool teachers, and both are worse at explaining math. This is because their main interest is on research, not teaching, and the fact that good teaching isn’t rewarded careerwise as well as good research is.
-Also, the fact that there is no accountability and penalisation for mediocre teaching doesn’t help the situation. This may sound a bit dark or bitter, but you’ll find that both students and researchers will confirm this.</p>
+<p>In that philosophy, a good advice on how to find out what university math is like, is to show up a university for a day, and/or to read university level textbooks. Many universities hold sepcial events that allow future students to join university level classes for a day or two. In them, you won’t really get a feel for what university level math is like, as either the topic is too advanced for you, or it’s tailored for highschool students and doesn’t reflect the actual contents of the classes. However, you get a good feeling for what lectures (content sessions) and tutorials (exercise sessions) are like. If the lecturer and the tutor where helpful, then you were lucky. Usually, both are a lot bussier then your highschool teachers, and both are usually worse at explaining math too. This is because their main interest is in research, not teaching, and the fact that good teaching isn’t rewarded careerwise. It’s likely, you just won’t find the same dedication for teaching your highschool teachers had.</p>
 
 <p>A good option to learn what university math is like is to work through the first few chapters of some textbooks.
 You can access those for free in the university library (often, you may come in the library without being a member of the university, or at least, no one will check), or find sripts of lectures and exercise sheets online on the professors and tutors websites.
 In this blogpost, I will advocate learning from books. The problem with this method is that you have no one to ask questions to when reading them, but its advantages are that you can take as long as you like to read them, and they usually contain more information then the scripts of professors lectures (which often cover a subset of the books content anyway).
 When reading the first few chapters of one of these textbooks, one of which should be on linear algebra and the other on analysis, you can see how this method works out for you.
-However, don’t be to hard on yourself if you strugle with the content of the book: it might not be the method of learning from books, nor the quality of the books that’s causing you trouble, but simply the fact that university math is quite different and quite harder then highschool math.</p>
+However, don’t be to hard on yourself if you strugle with the content of these books: it might not be the method of learning from books, nor the quality of the books that’s causing you trouble, but simply the fact that university math is quite different and quite harder then highschool math.</p>
 
 <h2 id="the-difference-between-uni-math-and-highschool-math">The difference between uni math and highschool math</h2>
 
@@ -162,19 +176,19 @@ When I first heard this claim, I didn’t quite belive it or understand it. This
 
 <p>A not too calculatory proof you may have already encountered in highschool is the irrationality of \(\sqrt 2\).
 We show that the contrary is impossible, so we show that there are no integers \(a,b\) such that \(2b^2 = a^2\) (an equivalent way of stating that \(\sqrt 2\) is rational) by deriving contradiction from assuming that there actually are such numbers.
-We start by noting that \(2b^2 = a^2\) implies that \(a^2\) is evem which can only happen when \(a\) is even.
-Indeed \((2k+1)^2 = 2(2k^2+2k) +1\), so that sqaures of odd numbers are odd, and \((2k)^2 = 2(2k^2)\), so that squares of even numbers are even, hence \(a=2k\) must be even.
-But then \(2b^2 = a^2\) becomes \(b^2 = 2k^2\) so that by the same argument, \(b\) is even as well.
-This causes a contradiction when the numberator \(a\) and the denominator \(b\) of the fraction we chose to represent \(\sqrt 2\) are coprime, so that they have no other common factors then \(1\), as even numbers have common factor \(2\).
-Now, all fractions can be represented by a coprime nuberator and the denominator (cancel all common factors in a given representaton), so to avoid contradiction, the assumption that \(\sqrt 2\) hẃas rational must have been false.</p>
+We start by noting that \(2b^2 = a^2\) implies that \(a^2\) is even, which can only happen when \(a\) is even.
+Indeed \((2k+1)^2 = 2(2k^2+2k) +1\), so that sqaures of odd numbers are odd, and \((2k)^2 = 2(2k^2)\), so that squares of even numbers are even, hence \(a=2q\) must be even.
+But then \(2b^2 = a^2\) becomes \(b^2 = 2q^2\) so that by the same argument, \(b\) is even as well.
+This causes a contradiction when the numerator \(a\) and the denominator \(b\) of the fraction we chose to represent \(\sqrt 2\) are coprime, so that they have no common factors other then \(1\), as even numbers have common factor \(2\).
+Now, all fractions can be represented by a coprime numerator and the denominator (cancel all common factors in a given representaton), so to avoid contradiction, the assumption that \(\sqrt 2\) was rational must have been false.</p>
 
 <p>This proof still contained some computational elements, such as the parity of squares.
-You will encounter proofs that contain no claculations at all, such as that of the Bolzano-Weierstrass theorem.
-This theorem says that a seuqence \((u_n )\) of real numbers with values in some bounded interval \([ a,b]\) will always contain a convergent subsequence.
+You will encounter proofs that contain little to no claculational arguments at all, such as that of the Bolzano-Weierstrass theorem.
+This theorem says that a sequence \((u_n )\) of real numbers with values in some bounded interval \([ a,b]\) will always contain a convergent subsequence.
 The idea is that either \([ a,(a+b)/(2)]\) or \([(a+b)/(2) , b]\) contains infinitely many terms of the series.
 If we choose \(v_1\) to be a \(u_m\) in the interval among the two that contains infinitely many terms, we can apply that argument again on the subsequence \(u\) starting at \(m+1\) that takes values in that interval.
-We will contruct a subsequence of \(u\) that will be in smaller and smaller intervals, and will therefore converge.
-My exposition involved quite some handwaving (= mathematicall slang for leaving thing unexplained), and you will find a better exposition in analysis textbooks.
+We will contruct a subsequence of \(u\) that will be in smaller and smaller intervals (they get halved at each step), and will therefore converge.
+My exposition involved quite some handwaving (= mathematicall slang for leaving things unexplained), and you will find a better exposition in analysis textbooks.
 What I wan’t you to note is that not a single calculational trick showed up in this proof: it was purely ideas and properties.</p>
 
 <h4 id="problem-solving">Problem solving</h4>
@@ -189,9 +203,9 @@ Try to solve this one before reading the solution that follows.</p>
 
 <p>The idea is to subdivide the square into 4 squares by cutting it along its egde midpoints.
 For five points, two of them will end up in the same sub-square.
-The largest distance two points can be at in such a square is the length of the sub-squares diagonal, which you can compute to be \(\sqrt 2 /2\).</p>
+The largest distance two points can be at in such a sub-square is the length of the sub-squares diagonal, which you can compute to be \(\sqrt 2 /2\).</p>
 
-<p>The step of subdividing the square into 4 required some initiative from your part.
+<p>The step of subdividing the square in 4 required some initiative from your part.
 It’s not a technique you will learn in a combinatorics class, where this type of exercise could be asked of you.
 It is, even at an advanced level, quite difficult to solve problems that require a lot of originality, so don’t feel bad if you didn’t get this one.
 This example illusrates (or is supposed to illustrate) the fact that problem solving requires a lot of creativity.
@@ -209,10 +223,8 @@ I’m no neuroscientist, but I think the bodybuilder wisdome “no pain, no gain
 <p>A side effect of this is that uni math can be quite hard and quite frustrating.
 It will often happen that you’ll get angry at yourself and ask : why didn’t I think of this ?
 Don’t let these moments drag you down. They happen to highly competent professional mathematicians all the time.
-However, if you dislike these moments too much then math may not be for you, and there is no sham in that.
-Working on problems all day does not create a sane environnement.
-Many mathematicians, even big names such as Riemann, Hadammard or Fulkerson, have suffered from depressions that may have been caused by causes other then math, but that math certainly didn’t helpget over with.
-I’m mentioning this because I have met people that I jugde to have been better off in terms of quality of life by doing something other then math.</p>
+However, if you dislike these moments too much then math may not be for you, and there is no shame in that.
+Working on problems all day does not create a sane environnement: you should compensate with a good amout of social life, sports and hobbies.</p>
 
 <h4 id="formalism">Formalism</h4>
 
@@ -223,25 +235,9 @@ In fact, if you check my projects on this website, you can find the Lean project
 <p>To illustrate this, we’ll take the example of the fact that there are \(n\times (n-1) \times ...\times 1\) ways to order \(n\) different objects.
 A proof of this you may have gotten in highschool may have been based on a diagram such as the following one.</p>
 
-<p align="center">
-</p>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/Blog_HighschoolUni.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-    </div>
+<div class="center-container">
+    <img src="/assets/img/Blog_HighschoolUni.png" alt="Your Image Description" class="centered-image">
 </div>
-
 
 <p>It represents the possible orderings as paths determined by successive choices of what object to place on spot \(k\) in the ordering, starting from spot \(1\) where we have \(n\) choices, to spot \(2\) where we have \(n-1\) choices for the second object (all but the first object are candidates), and so on.</p>
 
@@ -265,7 +261,7 @@ The moral of the story is that at uni, especially in the first semesters, loose 
 
 <p>Formalism is, in my opinion, misunderstood.
 It’s not there to annoy you. It’s an attempt at creating the highest proof standard that leaves no place for ambiguity, to the point of being mechanically checkable (and painfull to read for humans).
-I encourage you to think of it as a programming language: you have to talk to the computer that way because its just a buch of circuits.</p>
+I encourage you to think of it as a programming language: you have to talk to the computer in that pendatic way, because it doesn’t know better, it’s just a buch of circuits.</p>
 
 <p>Paradoxically, in contrast to the formalism you’ll be asked to learn in the first semesters, most professors frequently skip explanations, arguments, whole/parts of proofs in their classes.
 They do this either to gain time or because they can’t relate to students anymore and can’t therefore imagine that student can’t - or can only with much effort - fill in the missing explanations.
@@ -274,16 +270,16 @@ Also, again, don’t feel bad if you take a long time to fill in these parts, or
 
 <h2 id="my-advice">My advice</h2>
 
-<p>Now that you’ve seen the difference that universtity math has to highschool math, you should be thrilled to start your studies, as this uni type math is much more exiting than the hoghschool math, but you should also be worried about how well you’ll perform at uni type math.
+<p>Now that you’ve seen the difference that universtity math has to highschool math, you should be thrilled to start your studies, as this uni type math is much more exiting than the highschool math, but you should also be worried about how well you’ll perform at uni type math.
 This blog-post is here to give you some advice on how to succeed at studying math at uni.</p>
 
-<h4 id="location">Location</h4>
+<h4 id="options">Options</h4>
 
 <p>My first advice is to explore your options whenever you’re given any.</p>
 
 <p>The first choice you’ll make is deciding where to study.
 As you can check in my CV, I’ve studied both in France and Germany.
-My experiences is that the differences educational systems can make are astounding.
+My experience is that the differences educational systems have is astounding.
 They have advantages and disadvantages, and I recommend you consider studying abroad, if you have the capability for it, and you prefer a different educational system then your native one.</p>
 
 <p>Some advantages of the french system (or at least from math at the university of Strasbourg) over the german one are that you’re guided quite well in your first semesters: what the germans will try to shove into you in a year in terms of analysis and algebra is often spread over two years in french unis.
@@ -291,13 +287,14 @@ Some advantages of the german system (or at least from math at the universities 
 This is just an example. Of course, advantages and disadvantages are a question of taste, but I’d just like to point out that differences between systems exist.</p>
 
 <p>Another aspect of choosing where to study is prestige. Let’s face it, you’ve probabily looked at a uni ranking at some point or another.
-It is a difficult question to answer whether this truely matters. I’ve studied at the uni of Strasbourg, which isn’t that prestigious, and at the uni of Bonn, which is rather prestigious.
-My prefered system would be the free uni of Berlin, who’s math faculty is quite good, but not famous. Carefully explaining this choice would take to long.</p>
+It is a difficult question to answer whether this truely matters. I’m actually don’t have an answer I can fully get behind for this.</p>
+
+<p>Other options you’ll have to choose from are subjects. This may depend on the educational system you’re in: I rememeber there being relatively few choices of classes to take in Strasbourg, and quite a lot of choices at an early stage in Bonn. My advice is to try out all areas of math before specializing. There might be areas you haven’t heard of, or that you’ve been given a bad treatement of and may actually enjoy if done right. I remeber being fairly interested in dynamical systems and differential geometry before discovering discrete math, which I came across almost accidentally, after taking an obligatory class in Bonn. I’ve now specialized in discrete math and I’m confident I made the right choice in doing so.</p>
 
 <h4 id="read-books-">READ BOOKS !</h4>
 
 <p>The next choice you’ll have is to chose a learning resource for each of your classes.
-Indeed, there is more then just the lecturer’s script you can learn from.
+Indeed, there is more then just the lecturer’s script amd the tutor’s exercises you can learn from.
 Some books will contain more content, more explanantions and even better explanations then other books or your teachers script.
 At the end of this post, I’ve included a bunch of good books you can look at.
 It may seem difficult to believe that this choice has a great effect on your understanding of the subject.
@@ -308,11 +305,13 @@ Trust me when I say that learning with a good resource makes the whole differenc
 <p>The downside of not strictly following your lecturers notes is that you’ll have to find the time for reading the other resources and that you’ll have to synchronise notations, contents and order of contents between the resources.
 In my opinion, this is worth the price.</p>
 
-<h4 id="advice-for-the-filthy-students-interested-in-applying-math-to-actual-problem-from-the-real-world">Advice for the filthy students interested in applying math to actual problem from the real world</h4>
+<h4 id="applied-math">Applied math</h4>
 
-<p>The choices of teaching content aren’t in our favour.
-Professors are either not intereseted in applications of their work, sometimes even applications with math itself, or they don’t want to waste time on teaching about applications, as mathematical content is more important in a lecture.
-To remedy this, I can only recommend finding the applications yourself. You can search the internet for them, or fick through books on disiplines from the natural and social sciences and look at the math they use, until you find a field that uses the type of math you’re intersted in.</p>
+<p>The choices of teaching content aren’t in our favour if you like applying math to the real world.
+Professors are either not intereseted in applications of their work, sometimes even applications within math itself, or they don’t want to waste time on teaching about applications, as mathematical content is more important in a lecture.
+To remedy this, I can only recommend finding the applications yourself. You can search the internet for them, or flick through books on disiplines from the natural and social sciences and look at the math they use, until you find a field that uses the type of math you’re intersted in, and then read about this area.</p>
+
+<p>I like applied math. In case you don’t, I must warn you that even in academia, finding jobs where you work exclusively on pure math is becoming increasingly difficult, as these positions get increasingly rare. So you maximise you chances at a good job, either in or outside of academia by looking into application areas of math.</p>
 
 <h4 id="and-most-importantly">And most importantly</h4>
 
@@ -408,7 +407,8 @@ I highly recommend you to read these books, even if the contents aren’t part o
   <li>Game Theory A Playful Introduction by Matt Devos, Deborah A. Kent</li>
   <li>Discrete and computational geometry by Devadoss S., ORourke J.</li>
   <li>Algorithm Design by Jon Kleinberg, Eva Tardos</li>
-  <li>Extremal Combinatorics With Applications in Computer Science by Stasys Jukna</li>
+  <li>Extremal Combinatorics With Applications in Computer Science by Stasys Jukna
+And at least one of:</li>
   <li>Graphs Digraphs by Gary Chartrand, Linda Lesniak, Ping Zhang</li>
   <li>Graph theory by Adrian Bondy, U.S.R. Murty</li>
   <li>Graph Theory by Reinhard Diestel</li>
@@ -416,7 +416,9 @@ I highly recommend you to read these books, even if the contents aren’t part o
 
 <h4 id="algebra-1">Algebra:</h4>
 
-<p>Ideals, varieties, and algorithms an introduction to computational algebraic geometry and commutative algebra by David A. Cox, John Little, Donal O’Shea</p>
+<ul>
+  <li>Ideals, varieties, and algorithms an introduction to computational algebraic geometry and commutative algebra by David A. Cox, John Little, Donal O’Shea</li>
+</ul>
 
 <h4 id="analysis-2">Analysis:</h4>
 
