@@ -9,3 +9,12 @@ tags:
 ---
 
 Started this new website! I hope to fill it with posts and content soon!
+
+Don't mind the following. I'm just testing stuff.
+
+```lean
+def msg := "Hello World!"
+
+#eval IO.println msg
+```
+Should syntax-highligh Lean 4 code.
