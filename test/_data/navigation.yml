@@ -1,0 +1,11 @@
+main:
+  - title: "Posts"
+    url: /posts/
+  - title: "About"
+    url: /about/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Publications"
+    url: /publications/
+  - title: "Entertainment"
+    url: /entertainment/
