@@ -8,8 +8,8 @@ If you want to, you can take a good look at [me](https://happyves.github.io/asse
 
 # Now
 
-I'm a PhD Student working at TU Berlin. TODO : add details
-Contact me at jaeckle@zib.de
+I'm a PhD Student working at TU Berlin, under the supervision of Prof. Pokutta.
+**Contact** me at *jaeckle@zib.de*
 
 
 # So far
@@ -36,4 +36,3 @@ I also like the following, though I can't spend much time on it:
 Good to know:
 - I speak german and french fluently and I like to think that I speak english fluently.
 - I know Python and Lean. 
-- I've been "teaching" a sports class at FU Berlin where we play a series of short recreational games from highschool, such as dodgeball. 

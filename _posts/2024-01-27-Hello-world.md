@@ -18,3 +18,5 @@ def msg := "Hello World!"
 #eval IO.println msg
 ```
 Should syntax-highligh Lean 4 code.
+
+$\lam x : \sigma, x$ should be rendered and so should $\sum _{i=0} ^42 i$. Also the following should be in equation-format $$e = \pi = 3$$ Beatiful, isn't it.
