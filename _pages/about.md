@@ -9,6 +9,7 @@ If you want to, you can take a good look at [me](https://happyves.github.io/asse
 # Now
 
 I'm a PhD Student working at TU Berlin. TODO : add details
+Contact me at jaeckle@zib.de
 
 
 # So far
