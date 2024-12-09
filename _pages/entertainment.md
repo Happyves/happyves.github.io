@@ -22,3 +22,11 @@ Some high quality entertainment I harvested from the internet.
 ![one](https://happyves.github.io/assets/memes/meme_x.png)
 
 ![one](https://happyves.github.io/assets/memes/meme_11.png)
+
+![one](https://happyves.github.io/assets/memes/meme_12.jpg)
+
+![one](https://happyves.github.io/assets/memes/meme_13.jpg)
+
+![one](https://happyves.github.io/assets/memes/meme_14.png)
+
+![one](https://happyves.github.io/assets/memes/meme_15.png)
